@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page of Frontend Mentor</title>
+    <style>
+      .messages {
+        text-align: center;
+      }
+      .container-outer {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+        padding: 0;
+        margin: 0;
+        list-style: none;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        margin: 15px;
+        width: 40%;
+        border-radius: 5px;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      img {
+        border-radius: 5px 5px 0 0;
+      }
+
+      .container {
+        padding: 2px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="messages">
+      <h1>Welcome</h1>
+      <p>
+        Here you will find some of the challanges I did from Frontend Mentor
+        Challanges. You can visit
+        <a href="https://www.frontendmentor.io/challenges"> Frontend Mentor </a>
+        for more info.
+      </p>
+    </div>
+
+    <div class="container-outer">
+      <div class="card">
+        <img
+          src="./four-card-feature-section-master/images/four-card.jpg"
+          alt="picture of supervisor"
+          style="width: 100%"
+        />
+        <div class="container">
+          <h4><b>Four Card Feature Section</b></h4>
+          <a href="/four-card-feature-section-master/index.html">
+            Four Card Feature Section</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="./four-card-feature-section-master/images/sign-up.jpg"
+          alt="picture of supervisor"
+          style="width: 100%"
+        />
+        <div class="container">
+          <h4><b>Sign Up Form</b></h4>
+          <a href="/intro-component-with-signup-form-master/index.html">
+            Sign Up Form</a
+          >
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="./base-apparel-coming-soon-master/images/cover.jpg"
+          alt="picture of supervisor"
+          style="width: 100%"
+        />
+        <div class="container">
+          <h4><b>Base Apparel</b></h4>
+          <a href="/base-apparel-coming-soon-master/index.html">
+            Base Apparel Coming soon</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
